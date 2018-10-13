@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "945144344779",
+    "firebase_url": "https://ase-lab2.firebaseio.com",
+    "project_id": "ase-lab2",
+    "storage_bucket": "ase-lab2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945144344779:android:83c217034bf21762",
+        "android_client_info": {
+          "package_name": "com.example.prane.aselab2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945144344779-fv21emr5o21rmbmu81lt2cc6198hk7hr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTd_JSAF8NK91tMVEPugEp-z8uDf3CUB0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
