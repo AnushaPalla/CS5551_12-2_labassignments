@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button ion-button full (click)="logout()">Logout</button>
+  <button ion-button full (click)="takePhoto()">Take photo</button>
+  <img  [src]="base64Image!== '' ? base64Image : defaultImg" class="thumbnails" />
+  <div class="text-center">
+    <label>{{gender}}</label><br />
+    <label>{{age}}</label>
+  </div>
+</ion-content>
