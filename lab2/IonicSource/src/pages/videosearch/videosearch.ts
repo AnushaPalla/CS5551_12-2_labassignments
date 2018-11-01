@@ -40,5 +40,4 @@ export class VideosearchPage {
   playVideo(vidId){
     this.youtube.openVideo(vidId);
   }
-
 }
